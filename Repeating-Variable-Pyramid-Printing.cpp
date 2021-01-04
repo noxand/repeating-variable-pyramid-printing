@@ -7,7 +7,7 @@ int i, j, rows;
 
 // Main Program
 int main(){
-    cout << "Please input range(n) value for the repetition = "
+    cout << "Please input range(n) value for the repetition = ";
     cin >> rows;
     string  list[3] = {"*", "#", "%"};
     for (i = 0; i <= rows; i++){
